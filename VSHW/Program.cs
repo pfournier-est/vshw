@@ -20,9 +20,7 @@ namespace VSHW
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();
-
-            host.Run();
-
+            
             host.Run();
         }
     }
