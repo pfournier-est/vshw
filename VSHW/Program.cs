@@ -12,7 +12,7 @@ namespace VSHW
     {
         public static void Main(string[] args)
         {
-            //test??
+            //test
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
